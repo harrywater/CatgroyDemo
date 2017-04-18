@@ -10,6 +10,8 @@
 #import "AObject.h"
 #import "BObject.h"
 #import "BObject+KAction.h"
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -20,6 +22,8 @@ int main(int argc, const char * argv[]) {
         aobj.delegate = bobj;
         
         [aobj handleObjAction];
+        
+    
     }
     return 0;
 }
