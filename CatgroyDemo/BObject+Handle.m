@@ -7,10 +7,10 @@
 //
 
 #import "BObject+Handle.h"
-
 @implementation BObject (Handle)
--(void)touchAction
+
+- (void)logHanStr
 {
-    NSLog(@"Handle==BObject-touchAction");
+    NSLog(@"BObject+Handle-----str===logHanStr");
 }
 @end

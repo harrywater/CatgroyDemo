@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BObject.h"
-@protocol AObjectDelegate;
 
+@protocol AObjectDelegate;
+@protocol AObjectDelegateYY;
 @interface AObject : NSObject
 
 @property(nonatomic,weak)id<AObjectDelegate> delegate;
@@ -21,4 +21,8 @@
 @protocol AObjectDelegate<NSObject>
 @required
 -(void)touchAction;
+@end
+@protocol AObjectDelegateYY<NSObject>
+@required
+-(void)touchActionYY;
 @end

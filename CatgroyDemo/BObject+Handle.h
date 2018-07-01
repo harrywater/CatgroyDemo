@@ -8,6 +8,7 @@
 
 #import "BObject.h"
 
-@interface BObject (Handle)<AObjectDelegate>
+@interface BObject (Handle)
 
+- (void)logHanStr;
 @end

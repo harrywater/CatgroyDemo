@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56565B9E209062890008AED6 /* SubBObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 56565B9D209062890008AED6 /* SubBObj.m */; };
 		56C06ABD1D3C874D0011DCED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C06ABC1D3C874D0011DCED /* main.m */; };
 		56C06AC51D3C87C30011DCED /* AObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C06AC41D3C87C30011DCED /* AObject.m */; };
 		56C06AC81D3C88310011DCED /* BObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C06AC71D3C88310011DCED /* BObject.m */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		56565B9C209062890008AED6 /* SubBObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubBObj.h; sourceTree = "<group>"; };
+		56565B9D209062890008AED6 /* SubBObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubBObj.m; sourceTree = "<group>"; };
 		56C06AB91D3C874D0011DCED /* CatgroyDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CatgroyDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C06ABC1D3C874D0011DCED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56C06AC31D3C87C30011DCED /* AObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AObject.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				56C06AD31D3CBA150011DCED /* BObject+Handle.m */,
 				56C06ADF1D3DB2F00011DCED /* BObject+KAction.h */,
 				56C06AE01D3DB2F00011DCED /* BObject+KAction.m */,
+				56565B9C209062890008AED6 /* SubBObj.h */,
+				56565B9D209062890008AED6 /* SubBObj.m */,
 			);
 			path = CatgroyDemo;
 			sourceTree = "<group>";
@@ -138,11 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C06AE11D3DB2F00011DCED /* BObject+KAction.m in Sources */,
 				56C06AC51D3C87C30011DCED /* AObject.m in Sources */,
-				56C06AC81D3C88310011DCED /* BObject.m in Sources */,
 				56C06ABD1D3C874D0011DCED /* main.m in Sources */,
+				56C06AE11D3DB2F00011DCED /* BObject+KAction.m in Sources */,
 				56C06AD41D3CBA150011DCED /* BObject+Handle.m in Sources */,
+				56C06AC81D3C88310011DCED /* BObject.m in Sources */,
+				56565B9E209062890008AED6 /* SubBObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +159,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_ID = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -188,6 +195,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -197,6 +205,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_ID = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -226,6 +235,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
 				SDKROOT = macosx;
 			};
 			name = Release;

@@ -13,4 +13,9 @@
 {
     NSLog(@"KAction==BObject-touchAction");
 }
+- (void)logHanStr
+{
+    
+    NSLog(@"BObject+KAction-----str===logHanStr");
+}
 @end

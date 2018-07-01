@@ -10,5 +10,6 @@
 #import "AObject.h"
 
 @interface BObject : NSObject
-
+@property(nonatomic,copy)NSString* name;
+- (void)logHanStr;
 @end

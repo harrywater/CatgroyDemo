@@ -8,6 +8,6 @@
 
 #import "BObject.h"
 
-@interface BObject (KAction)<AObjectDelegate>
-
+@interface BObject (KAction)
+//- (void)logHanStr;
 @end
